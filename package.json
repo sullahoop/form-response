@@ -1,16 +1,6 @@
 {
-  "name": "form-response",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "type": "module",
-  "scripts": {
-    "dev": "node server.js"
-  },
   "dependencies": {
-    "express": "^5.2.1"
+    "garu-ko": "^0.9.4",
+    "wordcloud": "^1.2.3"
   }
 }
