@@ -1,4 +1,4 @@
-import WordCloud from "wordcloud";
+import WordCloud from "https://cdn.jsdelivr.net/npm/wordcloud@1.2.3/+esm";
 import { Garu } from "garu-ko";
 
 const stopPos = new Set(["Josa", "Eomi", "Punctuation", "Determiner"]);
