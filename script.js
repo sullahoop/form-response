@@ -1,5 +1,5 @@
 import WordCloud from "https://cdn.jsdelivr.net/npm/wordcloud@1.2.3/+esm";
-import { Garu } from "garu-ko";
+import { Garu } from "https://cdn.jsdelivr.net/npm/garu-ko/+esm";
 
 const stopPos = new Set(["Josa", "Eomi", "Punctuation", "Determiner"]);
 const stopwords = new Set(["그리고", "하지만", "입니다", "있는", "없는", "하기"]);
