@@ -43,6 +43,7 @@ function parseCsvLine(line) {
 
 async function extractKeywordsFromCsv(file) {
     const rows = await readCsvFile(file);
+    console.log(rows);
     const text = rows.flat().join(" ");
 
     const garu = await Garu.load();
